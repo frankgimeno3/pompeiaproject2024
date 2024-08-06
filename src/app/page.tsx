@@ -10,9 +10,9 @@ const Home = () => {
 
   const { data: session, status } = useSession()
 
-  if (status === "authenticated") {
-    redirect('/landing');
-  }
+  // if (status === "authenticated") {
+  //   redirect('/landing');
+  // }
 
   const router = useRouter();
 
